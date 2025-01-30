@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Vier gewinnt</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corinna Wegner - Researcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
 </head>
-<body >
-<p>
-    <a id='newgame' href='#' onclick="reload_page()">Neues Spiel</a>
-    <a id='dark_mode' href='#' onclick="click_dark_mode()">Dark mode</a>
-</p>
+<body>
+    <header>
+        <h1>Corinna Wegner</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <!--<a href="#research">Research</a>-->
+        <a href="#cv">CV</a>
+        <!--<a href="#news">News</a>-->
+        <!--<a href="#contact">Contact</a>-->
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a physics master's student from Germany. </p>
+            <p>Currently, I work as a research assistant in the NLP group at Gipplab, investigating reasoning and problem solving abilities in large language models.</p>
+            <p>Previously, I was a Bachelor student and research assistant in the lab of Prof. Dr. Ferenc Krausz. There, I was working on deep learning methods for cancer detection.</p>
+        </section>
+        <!--<section id="research">
+            <h2>Research Interests</h2>
+            <p>My research interests are complex systems, AI and cognitive science.</p>
+            <p>I am fascinated about building models for abstract reasoning - particularly for mathematical problem solving. </p>
+        </section>
+        <section id="cv">-->
+            <h2>Curriculum Vitae</h2>
+            <p>Download my <a href="CV_Corinna_Wegner_public.pdf" download>Curriculum Vitae</a></p>
+        <!--</section>
+        <section id="news">
+            <h2>Latest News</h2>
+            <p>Updates on recent research, publications, or conferences.</p>
+        </section>
+        <section id="Questions">
+            <h2>Questions</h2>
+            <p>Here are some questions I would like to know the answer to</p>
+            <p>How is knowledge represented in memory? What is talent? In a setting of optimal teaching, what is a physical predictor for the learning outcome?</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: corinnaelenawegner@gmail.com</p>
+        </section>-->
+    </div>
+    <footer>
+        <p>&copy; 2025 Corinna Wegner. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
